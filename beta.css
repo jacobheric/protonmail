@@ -1,0 +1,280 @@
+@charset "UTF-8";
+:root {
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #ffffff;
+  --bgcolor-searchbox-field: #ffffff;
+  --bgcolor-spacebar: #ffffff;
+  --bgcolor-aside-link: #ffffff;
+  --bgcolor-toolbar: #f2f2f2;
+  --fillcolor-logo: #5d8f5f;
+  --fillcolor-icons: #616161;
+  --color-nav-link:  #616161;
+  --color-nav-active: #d23f31;
+  --color-standard-text: #616161;
+  --boxshadow-main: none;
+}
+
+.pm-button--error, .pm-button--primary, .pm-button--warning, .pm-button-blue {
+  color: #ffffff;
+  background-color: #5d8f5f;
+  border: 1px solid #5d8f5f;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.is-hover.pm-button--error, .is-hover.pm-button--primary, .is-hover.pm-button--warning, .pm-button--error:focus, .pm-button--error:focus-within, .pm-button--error:hover, .pm-button--primary:focus, .pm-button--primary:focus-within, .pm-button--primary:hover, .pm-button--warning:focus, .pm-button--warning:focus-within, .pm-button--warning:hover, .pm-button-blue.is-hover, .pm-button-blue:focus, .pm-button-blue:focus-within, .pm-button-blue:hover {
+  color: #ffffff;
+  box-shadow: 0 0 0.35714em 0 rgba(0, 0, 0, 0.2);
+  background: #5d8f5f;
+  border: 1px solid #5d8f5f;
+}
+
+.tooltip {
+  background-color: #f2f2f2;
+  color: #5d8f5f;
+  border: 1px solid #5d8f5f;
+}
+
+.tooltip-arrow {
+  border-color: #5d8f5f;
+}
+
+.aside-link {
+  background: #ffffff;
+}
+
+.btnAdvancedSearch-icon-desktop {
+  fill: #1b1b1b !important;
+}
+
+.fill-plus {
+  fill: #5d8f5f !important;
+}
+
+.dropDown-logout-email {
+  color: #616161 !important;
+  opacity: 1 !important;
+}
+
+.dropdownButton-container span {
+  color: #616161;
+  opacity: .5;
+}
+
+.dropdownButton-container svg circle {
+  stroke: #616161;
+  stroke-width: 1px;
+  opacity: .5;
+}
+
+.navigation__counterItem {
+  border: 1px solid #f2f2f2;
+}
+
+.navigation small {
+  color: #616161;
+}
+
+.navigation small a, a:hover {
+  color: #616161 !important;
+}
+.navigation__link:hover {
+  background-color: #f2f2f2;
+}
+
+.aside-link:active, .aside-linkIcon, .aside-link:focus, .aside-linkIcon, .aside-link:hover,
+  .aside-linkIcon, .aside-link[aria-current="true"] {
+  fill: #5d8f5f !important;
+  background-color: #f2f2f2;
+}
+
+.circle-chart__circle {
+  stroke: #d23f31;
+}
+
+#global_search.searchbox-field[type="search"] {
+  background-color: #f2f2f2;
+  color: #616161;
+}
+
+.topnav-link, .topnav-link > .topnav-icon {
+  color: #616161;
+  transition: color .2s ease-in-out;
+}
+
+.topnav-link:active, .topnav-link:focus,
+.topnav-link:hover, .topnav-link[aria-current="true"] {
+  color: #d23f31;
+}
+
+.topnav-link:active > .topnav-icon, .topnav-link:focus > .topnav-icon,
+.topnav-link:hover > .topnav-icon, .topnav-link[aria-current=true] > .topnav-icon {
+  color: #d23f31;
+}
+
+.conversation.marked::before {
+  background: #d23f31;
+}
+
+.conversation.item-container:not(.item-is-selected):not(.item-contact):not(.read):not(.active) {
+  background: #fff;
+}
+
+.conversation.item-container.active, .conversation.item-is-selected {
+  background: rgba(104, 157, 106, 0.1);
+}
+
+.conversation .item-checkbox:checked + .item-icon {
+  background-color: #d23f31;
+  border-color: #d23f31;
+}
+
+.conversation .item-checkbox + .item-icon:hover .item-icon-fakecheck-icon {
+  fill: #d23f31;
+}
+
+.conversation .item-checkbox:checked + .item-icon:hover .item-icon-fakecheck-icon {
+  fill: #fbf1c7;
+}
+
+.conversation .selectBoxElement-container:hover .item-icon {
+  background-color: transparent;
+  border: 1px solid #5d8f5f;
+}
+
+.conversation .selectBoxElement-container:hover .item-icon .item-icon-fakecheck-icon {
+  fill: #5d8f5f;
+}
+
+.conversation .selectBoxElement-container:hover .item-checkbox:checked + .item-icon {
+  background-color: #5d8f5f;
+  border-color: #5d8f5f;
+}
+
+.starbutton {
+  fill: #689d6a !important;
+  opacity: 0.7;
+}
+
+.starbutton:focus, .starbutton:hover {
+  fill: #d23f31;
+}
+
+.color-pm-blue {
+  color: #d23f31;
+}
+
+.pm-radio:checked + .pm-radio-fakeradio::before {
+  background: #d23f31;
+}
+
+.block-info-standard {
+  border-color: #458588;
+}
+
+.block-info-standard-warning {
+  border-color: #d79921;
+}
+
+.block-info-standard-error {
+  border-color: #cc241d;
+}
+
+.link, a, .pm-button--link {
+  color: #282828;
+  transition: color .2s ease-in-out;
+}
+
+.link:active, .link:focus, .link:hover,
+a:active, a:focus, a:hover,
+.pm-button--link:hover {
+  color: #537f54;
+}
+
+.pm-button--primary {
+  background-color: #d23f31;
+  border-color: #d23f31;
+}
+
+.pm-button--link, .pm-button.pm-button--link {
+  color: #d23f31;
+}
+
+.pm-button--error, .pm-button--error.pm-button--info, .pm-button--error.pm-button--redborder, .pm-button--primary, .pm-button--primary.pm-button--info, .pm-button--primary.pm-button--redborder, .pm-button--warning, .pm-button--warning.pm-button--info, .pm-button--warning.pm-button--redborder, .pm-button-blue, .pm-button-blue.pm-button--info, .pm-button-blue.pm-button--redborder, .pm-button.pm-button--error, .pm-button.pm-button--primary, .pm-button.pm-button--warning, .pm-button.pm-button-blue {
+  background-color: #d23f31;
+  border-color: #d23f31;
+}
+
+.is-hover.pm-button--error, .is-hover.pm-button--error.pm-button--info, .is-hover.pm-button--error.pm-button--redborder, .is-hover.pm-button--primary, .is-hover.pm-button--primary.pm-button--info, .is-hover.pm-button--primary.pm-button--redborder, .is-hover.pm-button--warning, .is-hover.pm-button--warning.pm-button--info, .is-hover.pm-button--warning.pm-button--redborder, .pm-button--error.pm-button--info:focus, .pm-button--error.pm-button--info:focus-within, .pm-button--error.pm-button--info:hover, .pm-button--error.pm-button--redborder:focus, .pm-button--error.pm-button--redborder:focus-within, .pm-button--error.pm-button--redborder:hover, .pm-button--error:focus, .pm-button--error:focus-within, .pm-button--error:hover, .pm-button--primary.pm-button--info:focus, .pm-button--primary.pm-button--info:focus-within, .pm-button--primary.pm-button--info:hover, .pm-button--primary.pm-button--redborder:focus, .pm-button--primary.pm-button--redborder:focus-within, .pm-button--primary.pm-button--redborder:hover, .pm-button--primary:focus, .pm-button--primary:focus-within, .pm-button--primary:hover, .pm-button--warning.pm-button--info:focus, .pm-button--warning.pm-button--info:focus-within, .pm-button--warning.pm-button--info:hover, .pm-button--warning.pm-button--redborder:focus, .pm-button--warning.pm-button--redborder:focus-within, .pm-button--warning.pm-button--redborder:hover, .pm-button--warning:focus, .pm-button--warning:focus-within, .pm-button--warning:hover, .pm-button-blue.is-hover, .pm-button-blue.is-hover.pm-button--info, .pm-button-blue.is-hover.pm-button--redborder, .pm-button-blue.pm-button--info:focus, .pm-button-blue.pm-button--info:focus-within, .pm-button-blue.pm-button--info:hover, .pm-button-blue.pm-button--redborder:focus, .pm-button-blue.pm-button--redborder:focus-within, .pm-button-blue.pm-button--redborder:hover, .pm-button-blue:focus, .pm-button-blue:focus-within, .pm-button-blue:hover, .pm-button.is-hover.pm-button--error, .pm-button.is-hover.pm-button--primary, .pm-button.is-hover.pm-button--warning, .pm-button.pm-button--error:focus, .pm-button.pm-button--error:focus-within, .pm-button.pm-button--error:hover, .pm-button.pm-button--primary:focus, .pm-button.pm-button--primary:focus-within, .pm-button.pm-button--primary:hover, .pm-button.pm-button--warning:focus, .pm-button.pm-button--warning:focus-within, .pm-button.pm-button--warning:hover, .pm-button.pm-button-blue.is-hover, .pm-button.pm-button-blue:focus, .pm-button.pm-button-blue:focus-within, .pm-button.pm-button-blue:hover {
+  background: #5d8f5f;
+  border: 1px solid #5d8f5f;
+}
+
+.pm-toggle-checkbox:checked + .pm-toggle-label:before {
+  background: #d23f31;
+  border-color: #d23f31;
+}
+
+.fill-pm-blue,
+.message-attachmentIcon .file-outer-icon.is-embedded {
+  fill: #d23f31;
+}
+
+.pm-table--highlight[data-plan-number="1"] tr th:nth-child(2) {
+  border-color: #d23f31;
+  color: #d23f31;
+}
+
+.pm-table--highlight[data-plan-number="1"] tr th:nth-child(2)::before {
+  background-color: #d23f31;
+}
+
+.pm-table--highlight[data-plan-number="1"] tr td:nth-child(2),
+.pm-table--highlight[data-plan-number="1"] tr th:nth-child(2),
+.pm-table--highlight[data-plan-number="1"] tr:last-child td:nth-child(2) {
+  border-color: #d23f31;
+}
+
+.pm-simple-table-row-th .fill-primary {
+  fill: #d23f31;
+}
+
+.progress-contact {
+  color: #d23f31;
+}
+
+.progress-contact::-moz-progress-bar {
+  background: #d23f31;
+}
+
+.calendar-grid-heading[aria-pressed="true"]
+.calendar-grid-heading-number,
+.minicalendar-day[aria-pressed="true"],
+.minicalendar-day[aria-current="date"]::before,
+.calendar-monthgrid-day[aria-pressed="true"] .calendar-monthgrid-day-number {
+  background: #355136;
+}
+
+.minicalendar {
+  color: #616161;
+}
+
+.minicalendar-day {
+  color: #000 !important;
+}
+
+.toolbar {
+  margin-bottom: 2px;
+}
+
+.toolbar span {
+  color: #616161;
+}
+
+/**
+ caveat emptor: overiding the default svg image used for the calendar timezone dropdown,
+ if proton changes svg sprites this will break
+**/
+.toolbar-select {
+  color: #616161;
+  background: #f2f2f2 url(/calendar/assets/sprite-for-css-only.c7c581e3.svg#css-caret) calc(100% - 6px) 50% no-repeat;
+}
