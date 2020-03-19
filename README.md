@@ -5,4 +5,5 @@ These are my _quick & dirty_ custom, light proton mail themes.
 * Beta based on: https://github.com/csalmeida/protonmail-themes/tree/themes-v4  
 
 
-[beta version]: (beta.png) 
+![Beta Screenshot](/beta.png)
+
