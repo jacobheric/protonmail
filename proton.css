@@ -177,20 +177,6 @@ body .cg-notify-message {
 .composer-meta .pm_button {
   border: none !important;
 }
- /*!
-*  Custom Theme for ProtonMail v3.5.15
-*  --
-*  Author: Austin Delamar - http://austindelamar.com
-*/
-/*!
-*  == Credit to these authors as well ==
-*
-*  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
-*  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
-*
-*  Pikaday
-*  Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
-*/
 
 #exiting {
   background-color: #FFF;
