@@ -72,6 +72,8 @@
 
 .navigation__counterItem {
   border: 1px solid #f2f2f2;
+  background: #fff;
+  color: #616161;
 }
 
 .navigation small {
